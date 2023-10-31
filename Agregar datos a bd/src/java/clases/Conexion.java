@@ -16,13 +16,13 @@ public class Conexion {
     protected Connection conexionBd;
     
     private final String sgdb = "sqlserver"; // sqlserver,mysql
-    private final String servidor="BLACK/SQLEXPRESS"; //DESARROLLO,localhost
+    private final String servidor=""; //DESARROLLO,localhost || miapodoenmayusculas/SQLEXPRESS
     private final String puerto=":3306";//:3306
     private final String bd = "dbEscuela";
   //  private final String urlConexion = "jdbc:"+sgdb +"://"+servidor+puerto+"/"+bd; //mysql
     private final String urlConexion = "jdbc:"+sgdb +"://"+servidor+puerto+";databaseName="+bd;
-    private final String usuario = "Black";
-    private final String contra = "black";
+    private final String usuario = ""; //mi apodo con la primera mayuscula
+    private final String contra = "";  //mi apodo
     private final String jdbc="com.microsoft.sqlserver.jdbc.SQLServerDriver,com.mysql.jdbc.Driver"; 
     // com.microsoft.sqlserver.jdbc.SQLServerDriver,com.mysql.jdbc.Driver
     // com.mysql.jdbc.Driver
